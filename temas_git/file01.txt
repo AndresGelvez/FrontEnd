@@ -1,0 +1,4 @@
+mi primer archivo 
+huella digital 
+CertUtil: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso.
+40d0423fdb67f818d50c356a4374c8126c34cd71ee9478ce307a71cbf4032fdf
