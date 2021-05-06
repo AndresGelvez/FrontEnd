@@ -36,5 +36,5 @@ captura.question(` por favor ingresar un numero: `, function(data){
     }
 
 
-    Captura.close();
+    captura.close();
 });
