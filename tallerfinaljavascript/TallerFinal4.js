@@ -7,7 +7,7 @@ const Pregunta = (i)  => {
     console.log(preguntas[i]);
 }
 
-process.stdin.on('dato', (d) => {   
+process.stdin.on('data', (d) => {   
 
     numeroArreglo.push(d.toString().trim()) 
 

@@ -8,20 +8,20 @@ let teclado = readline.createInterface({
 
 });
 
-teclado.question(` numero: `, function(dato){
+teclado.question(` numero: `, function(data){
 
     var h=true;
 
-    for (var i = 2; i <= dato/2; i++) {
+    for (var i = 2; i <= data/2; i++) {
 
-        if ((dato % i) == 0) {
+        if ((data % i) == 0) {
             h = false;
         
         }
     }
 
-    if(j){
-        
+    if(h){
+
         console.log(`el numero es primo`);         
 
     }else{console.log(`el numero no es primo`);}    
